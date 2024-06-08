@@ -36,6 +36,11 @@ const ColorBlock = ({
           cursor: "pointer",
         }}
       />
+      <span
+        style={{ marginTop: "5px", fontWeight: "bold", marginRight: "15px" }}
+      >
+        {color}
+      </span>
     </div>
   );
 };

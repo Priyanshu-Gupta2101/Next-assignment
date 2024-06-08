@@ -1,8 +1,12 @@
 const Child1 = ({ incrementMoney }) => {
   return (
     <div>
-      <h2>Child1 Component</h2>
-      <button onClick={incrementMoney}>Increment Money by 1000</button>
+      <button
+        className="bg-white text-black p-4 mt-3 rounded-md"
+        onClick={incrementMoney}
+      >
+        Increment
+      </button>
     </div>
   );
 };

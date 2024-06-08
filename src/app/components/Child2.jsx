@@ -1,8 +1,12 @@
 const Child2 = ({ decrementMoney }) => {
   return (
     <div>
-      <h2>Child2 Component</h2>
-      <button onClick={decrementMoney}>Decrement Money by 500</button>
+      <button
+        className="bg-white text-black p-4 mt-3 rounded-md"
+        onClick={decrementMoney}
+      >
+        Decrement
+      </button>
     </div>
   );
 };

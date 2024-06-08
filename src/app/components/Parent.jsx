@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import Child1 from "./Child1";
 import Child2 from "./Child2";
@@ -14,11 +15,12 @@ const Parent = () => {
   };
 
   return (
-    <div>
-      <h1>Parent Component</h1>
+    <div className="border border-white p-4">
       <p>Money: {money}</p>
-      <Child1 incrementMoney={incrementMoney} />
-      <Child2 decrementMoney={decrementMoney} />
+      <div className="flex gap-3">
+        <Child1 incrementMoney={incrementMoney} />
+        <Child2 decrementMoney={decrementMoney} />
+      </div>
     </div>
   );
 };

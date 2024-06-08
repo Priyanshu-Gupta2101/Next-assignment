@@ -4,15 +4,15 @@ import ColorBlock from "./ColorBlock";
 
 const ColorPalette = () => {
   const initialColors = [
-    "#FF5733",
-    "#33FF57",
-    "#3357FF",
-    "#F3FF33",
-    "#FF33A1",
-    "#33FFF6",
-    "#F633FF",
-    "#FF8633",
+    "#FF0000",
+    "#FF7F00",
+    "#FFFF00",
+    "#00FF00",
+    "#0000FF",
+    "#4B0082",
+    "#8B00FF",
   ];
+
   const [colors, setColors] = useState(initialColors);
   const [draggedColorIndex, setDraggedColorIndex] = useState(null);
 
